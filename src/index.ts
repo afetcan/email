@@ -16,6 +16,8 @@ import { env } from './environment'
 import { createEmailProvider } from './providers'
 import { createScheduler } from './scheduler'
 
+export type { EmailsApi, EmailsApiInput } from './api'
+
 async function main() {
   if (env.sentry) {
     Sentry.init({

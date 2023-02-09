@@ -12,7 +12,7 @@ import type { Options } from 'tsup'
 // ]
 
 export default <Options>{
-  entryPoints: ['src/*'],
+  entryPoints: ['src/index.ts'],
   outDir: 'dist',
   target: 'node18', // needed for working ESM
   format: ['esm'],
