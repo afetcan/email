@@ -1,0 +1,32 @@
+version: '3.8'
+
+networks:
+  stack: {}
+
+services:
+  acildeprem_email:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    networks:
+      - 'stack'
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - 3050:3050
+    env_file: ./.env
+    environment:
+        REDIS_HOST: "acildeprem_email_redis"
+        REDIS_PORT: "6379"
+        REDIS_PASSWORD: "redispass"
+    #     EMAIL_PROVIDER: "mock"
+    #     EMAIL_FROM: "help@acildestek.com"
+
+  acildeprem_email_redis:
+    image: redis:7.0.7-alpine
+    networks:
+      - 'stack'
+    ports:
+      - "6379:6379"
+    command: redis-server --save 20 1 --loglevel warning --requirepass redispass
+    restart: always
