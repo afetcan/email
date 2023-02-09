@@ -9,7 +9,8 @@
 </p>
 
 
-`@acildeprem/email` e posta göndermek için kullanılan pakettir. `postmark`, `smtp` gibi protokollerle çalışır. Bu yapi genisletilebilir. `mock` modunda çalıştırılarak local geliştirme yapılabilir. Bu yapi bir npm paketi olsada suanda direk docker container olarak kullanılmaktadır. Ama istenirse istenilen yerde kullanılabilir. npm paketi de hazir.
+`@acildeprem/email` e posta göndermek için kullanılan pakettir. `postmark`, `smtp` gibi protokollerle çalışır. Bu yapi genisletilebilir. `mock` modunda çalıştırılarak local geliştirme yapılabilir. Bu yapi bir npm paketi olsada suanda direk docker container olarak kullanılmaktadır. Buradan e posta api yapilarida cikmaktadir. Kullanmak istediginiz yerde direk apileri kullarak kolayca e posta gonderimi yapabilirsiniz.
+
 
 ## NPM Paketi
 
