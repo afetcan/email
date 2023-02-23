@@ -2,7 +2,7 @@
   "name": "@afetcan/email",
   "private": false,
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Email for afetcan.com",
   "author": "Mehmet - productdevbook <hi@productdevbook.com>",
   "license": "Apache",
