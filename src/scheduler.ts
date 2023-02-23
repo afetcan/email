@@ -1,4 +1,4 @@
-import type { FastifyBaseLogger } from '@acildeprem/service-common'
+import type { FastifyBaseLogger } from '@afetcan/service-common'
 import * as Sentry from '@sentry/node'
 import { Job, Queue, Worker } from 'bullmq'
 import Redis, { Redis as RedisInstance } from 'ioredis'
@@ -55,7 +55,7 @@ export function createScheduler(config: {
     if (!redisConnection)
       return
 
-    const prefix = 'acildeprem-emails'
+    const prefix = 'afetcan-emails'
 
     queue = new Queue(config.queueName, {
       prefix,

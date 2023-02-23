@@ -4,7 +4,7 @@ networks:
   stack: {}
 
 services:
-  acildeprem_email:
+  afetcan_email:
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -16,13 +16,13 @@ services:
       - 3050:3050
     env_file: ./.env
     environment:
-        REDIS_HOST: "acildeprem_email_redis"
+        REDIS_HOST: "afetcan_email_redis"
         REDIS_PORT: "6379"
         REDIS_PASSWORD: "redispass"
     #     EMAIL_PROVIDER: "mock"
     #     EMAIL_FROM: "help@acildestek.com"
 
-  acildeprem_email_redis:
+  afetcan_email_redis:
     image: redis:7.0.7-alpine
     networks:
       - 'stack'

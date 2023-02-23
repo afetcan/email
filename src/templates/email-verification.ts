@@ -829,7 +829,7 @@ export function renderEmailVerificationEmail(params: {
 
 																	<p
 																		style="font-family:'Helvetica'; font-size: 16px; line-height: 26px; font-weight:700; text-align: center; padding-top: 24px; padding-bottom: 24px; padding-left: 8%; padding-right: 8%; ">
-																		Please verify your email address for acildeprem
+																		Please verify your email address for afetcan
 																		by clicking the button below.</p>
 
 																	<div class="button-td button-td-primary"

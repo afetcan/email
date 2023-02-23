@@ -7,8 +7,8 @@ import { renderEmailVerificationEmail } from './templates/email-verification'
 import { renderPasswordResetEmail } from './templates/password-reset'
 
 const t = initTRPC.context<Context>().create()
-const awsGlobal = 'https://acildeprem.s3.eu-central-1.amazonaws.com/global'
-const logo = `${awsGlobal}/acildeprem_logo.png`
+const awsGlobal = 'https://afetcan.s3.eu-central-1.amazonaws.com/global'
+const logo = `${awsGlobal}/afetcan_logo.png`
 const headerImage = `${awsGlobal}/mail-header.png`
 const footerImage = `${awsGlobal}/mail-bottom.png`
 
@@ -76,26 +76,26 @@ export const emailsApiRouter = t.router({
           body: renderPasswordResetEmail({
             hi: 'Password reset',
             title: 'Şifre Sıfırlama - Acil Deprem',
-            description: 'Password reset link for your account on acildeprem',
+            description: 'Password reset link for your account on afetcan',
             buttonText: 'Click here to reset your password',
             buttonURL: input.passwordResetLink,
             footer: `If your link doesn't work, copy and paste the following link into your browser: ${input.passwordResetLink}`,
-            pageTitle: 'acildeprem',
-            thankYou: 'Thank you <br> acildeprem Team',
+            pageTitle: 'afetcan',
+            thankYou: 'Thank you <br> afetcan Team',
             projectAddress: `
         © 2023 Acil Deprem, Turkiye <br>`,
-            projectName: 'acildeprem',
-            logoAlt: 'acildeprem',
+            projectName: 'afetcan',
+            logoAlt: 'afetcan',
             logoURL: logo,
             headerImageURL: headerImage,
             footerImageURL: footerImage,
-            pageHeader: 'acildeprem',
+            pageHeader: 'afetcan',
             pageLanguage: 'en',
             appStoreURL: 'id1494667688',
             playStoreURL: 'com.com.com',
             connectText: 'Connect with us',
-            docsURL: 'https://docs.acildeprem.com',
-            liveChatURL: 'https://acildeprem.com',
+            docsURL: 'https://docs.afetcan.com',
+            liveChatURL: 'https://afetcan.com',
             youtubeURL: 'https://www.youtube.com',
           }),
         })
@@ -127,26 +127,26 @@ export const emailsApiRouter = t.router({
           body: renderPasswordResetEmail({
             hi: 'Password reset',
             title: 'Şifre Sıfırlama - Acil Deprem',
-            description: 'Password reset link for your account on acildeprem',
+            description: 'Password reset link for your account on afetcan',
             buttonText: 'Click here to reset your password',
             buttonURL: input.passwordResetLink,
             footer: `If your link doesn't work, copy and paste the following link into your browser: ${input.passwordResetLink}`,
-            pageTitle: 'acildeprem',
-            thankYou: 'Thank you <br> acildeprem Team',
+            pageTitle: 'afetcan',
+            thankYou: 'Thank you <br> afetcan Team',
             projectAddress: `
         © 2023 Acil Deprem, Turkiye <br>`,
-            projectName: 'acildeprem',
-            logoAlt: 'acildeprem',
+            projectName: 'afetcan',
+            logoAlt: 'afetcan',
             logoURL: logo,
             headerImageURL: headerImage,
             footerImageURL: footerImage,
-            pageHeader: 'acildeprem',
+            pageHeader: 'afetcan',
             pageLanguage: 'en',
             appStoreURL: 'id1494667688',
             playStoreURL: 'com.com.com',
             connectText: 'Connect with us',
-            docsURL: 'https://docs.acildeprem.com',
-            liveChatURL: 'https://acildeprem.com',
+            docsURL: 'https://docs.afetcan.com',
+            liveChatURL: 'https://afetcan.com',
             youtubeURL: 'https://www.youtube.com',
           }),
         })

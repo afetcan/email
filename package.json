@@ -1,19 +1,19 @@
 {
-  "name": "@acildeprem/email",
+  "name": "@afetcan/email",
   "private": false,
   "type": "module",
   "version": "0.0.5",
-  "description": "Email for acildeprem.com",
+  "description": "Email for afetcan.com",
   "author": "Mehmet - productdevbook <hi@productdevbook.com>",
   "license": "Apache",
-  "homepage": "https://github.com/acildeprem/#readme",
+  "homepage": "https://github.com/afetcan/#readme",
   "packageManager": "pnpm@7.26.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acildeprem/email.git"
+    "url": "git+https://github.com/afetcan/email.git"
   },
   "bugs": {
-    "url": "https://github.com/acildeprem/email/issues"
+    "url": "https://github.com/afetcan/email/issues"
   },
   "exports": {
     ".": {
@@ -63,7 +63,7 @@
     "zod": "^3.20.2"
   },
   "devDependencies": {
-    "@acildeprem/service-common": "0.0.2",
+    "@afetcan/service-common": "0.0.4",
     "@antfu/eslint-config": "^0.35.1",
     "@types/mjml": "^4.7.0",
     "@types/node": "^18.11.19",

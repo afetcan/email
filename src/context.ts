@@ -1,4 +1,4 @@
-import type { FastifyBaseLogger } from '@acildeprem/service-common'
+import type { FastifyBaseLogger } from '@afetcan/service-common'
 import type { Job } from 'bullmq'
 import type { EmailInput } from './shapes'
 

@@ -1,41 +1,39 @@
-# EMAİL AÇIKLAMASI
+# EMAIL SERVICES
 
 <p>
-      <a href="https://www.npmjs.com/package/@acildeprem/email"><img src="https://img.shields.io/npm/v/@acildeprem/email.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
-      <a href="https://www.npmjs.com/package/@acildeprem/email"><img src="https://img.shields.io/npm/dm/@acildeprem/email.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
-      <a href="./LICENSE"><img src="https://img.shields.io/github/license/acildeprem/storage.svg?style=flat&colorA=002438&colorB=28CF8D" alt="License"></a>
-      <a href="https://github.com/acildeprem/email">
-      <img src="https://img.shields.io/github/stars/acildeprem/email.svg?style=social&label=Star&maxAge=2592000" alt="Github Stars"> </a>
+      <a href="https://www.npmjs.com/package/@afetcan/email"><img src="https://img.shields.io/npm/v/@afetcan/email.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
+      <a href="https://www.npmjs.com/package/@afetcan/email"><img src="https://img.shields.io/npm/dm/@afetcan/email.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
+      <a href="./LICENSE"><img src="https://img.shields.io/github/license/afetcan/storage.svg?style=flat&colorA=002438&colorB=28CF8D" alt="License"></a>
+      <a href="https://github.com/afetcan/email">
+      <img src="https://img.shields.io/github/stars/afetcan/email.svg?style=social&label=Star&maxAge=2592000" alt="Github Stars"> </a>
 </p>
 
 
-`@acildeprem/email` e posta göndermek için kullanılan pakettir. `postmark`, `smtp` gibi protokollerle çalışır. Bu yapi genisletilebilir. `mock` modunda çalıştırılarak local geliştirme yapılabilir. Bu yapi bir npm paketi olsada suanda direk docker container olarak kullanılmaktadır. Buradan e posta api yapilarida cikmaktadir. Kullanmak istediginiz yerde direk apileri kullarak kolayca e posta gonderimi yapabilirsiniz.
+`@afetcan/email` is the package used to send e-mail. It works with protocols like `postmark`, `smtp`. This structure can be expanded. Local development can be done by running in `mock` mode. Although this structure is an npm package, it is currently used directly as a docker container. From here, e-mail API structures are also available. Where you want to use, you can easily send e-mails directly using the APIs.
 
 
-## NPM Paketi
+## NPM
 
 
-### Kurulum
+### Setup
 ```bash
-pnpm install @acildeprem/email
+pnpm install @afetcan/email
 ```
 
-###  Kullanım
+### Usage
 ```ts
-import { ... } from '@acildeprem/email' 
+import { ... } from '@afetcan/email' 
 ```
 
-## Gereksinimler
+## Dependencies
 
 - [Node.js](https://nodejs.org/en/) 18.0.0+
 - [pnpm](https://pnpm.io/) 7.26.3+
 
-## Kullandığımız teknolojiler
-TODO: Burasi eksik bir kisi pr gonderebilir mi ?
 
-## Local Geliştirme - Development
+## Development
 
-### Kurulum
+### Setup
 ```bash
 pnpm install
 ```
@@ -53,6 +51,6 @@ pnpm build
 
 # Linkler
 
-- [Web Sitesi](https://acildeprem.com)
-- [Discord](https://discord.acildeprem.com)
-- [Twitter](https://twitter.com/acildepremcom)
+- [Website](https://afetcan.com)
+- [Discord](https://discord.afetcan.com)
+- [Twitter](https://twitter.com/afetcanapp)

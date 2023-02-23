@@ -6,7 +6,7 @@ import {
   reportReadiness,
   startHeartbeats,
   startMetrics,
-} from '@acildeprem/service-common'
+} from '@afetcan/service-common'
 import * as Sentry from '@sentry/node'
 import type { CreateFastifyContextOptions } from '@trpc/server/adapters/fastify'
 import { fastifyTRPCPlugin } from '@trpc/server/adapters/fastify'

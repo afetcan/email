@@ -1,4 +1,4 @@
-// auto-generated acildeprem
+// auto-generated afetcan
 // prettier-ignore
 export function renderPasswordResetEmail(params: { headerImageURL: string; logoURL: string; logoAlt: string; hi: string; title: string; description: string; buttonURL: string; buttonText: string; footer: string; thankYou: string; connectText: string; docsURL: string; youtubeURL: string; liveChatURL: string; footerImageURL: string; projectName: string; projectAddress: string; appStoreURL: string; playStoreURL: string; pageLanguage: string; pageTitle: string; pageHeader: string }) {
   return `<!DOCTYPE html>
@@ -27,7 +27,7 @@ export function renderPasswordResetEmail(params: { headerImageURL: string; logoU
     :root {
       color-scheme: light dark;
     }
-    .hover-bg-acildeprem-500:hover {
+    .hover-bg-afetcan-500:hover {
       background-color: #ff2323 !important;
     }
     @media (prefers-color-scheme: dark) {
@@ -128,7 +128,7 @@ export function renderPasswordResetEmail(params: { headerImageURL: string; logoU
                     <tr>
                       <td>
                         <div style="line-height: 100%">
-                          <a href="${params.buttonURL}" class="hover-bg-acildeprem-500" style="text-decoration: none; display: inline-block; cursor: pointer; border-radius: 4px; background-color: #d70000; padding: 14px 16px; text-align: center; font-size: 16px; font-weight: 600; color: #fff">
+                          <a href="${params.buttonURL}" class="hover-bg-afetcan-500" style="text-decoration: none; display: inline-block; cursor: pointer; border-radius: 4px; background-color: #d70000; padding: 14px 16px; text-align: center; font-size: 16px; font-weight: 600; color: #fff">
                             <!--[if mso]>
                               <i hidden style="mso-text-raise: 30px; letter-spacing: 24px">&#8202;</i>
                             <![endif]-->
@@ -178,13 +178,13 @@ export function renderPasswordResetEmail(params: { headerImageURL: string; logoU
                                   <tbody>
                                     <tr>
                                       <th style="padding-right: 16px">
-                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.docsURL}"><img src="https://acildeprem.s3.eu-central-1.amazonaws.com/global/window.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
+                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.docsURL}"><img src="https://afetcan.s3.eu-central-1.amazonaws.com/global/window.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
                                       </th>
                                       <th style="padding-right: 16px;">
-                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.youtubeURL}"><img src="https://acildeprem.s3.eu-central-1.amazonaws.com/global/youtube.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
+                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.youtubeURL}"><img src="https://afetcan.s3.eu-central-1.amazonaws.com/global/youtube.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
                                       </th>
                                       <th style="padding-right: 16px;">
-                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.liveChatURL}"><img src="https://acildeprem.s3.eu-central-1.amazonaws.com/global/chat.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
+                                        <a target="_blank" style="color:#067df7;text-decoration:none" href="${params.liveChatURL}"><img src="https://afetcan.s3.eu-central-1.amazonaws.com/global/chat.png" width="40" height="40" style="max-width: 100%; vertical-align: middle; line-height: 100%; display: block; outline: none; border: none; text-decoration: none;" alt=""></a>
                                       </th>
                                     </tr>
                                   </tbody>
@@ -217,14 +217,14 @@ export function renderPasswordResetEmail(params: { headerImageURL: string; logoU
             <tr>
               <td align="center" style="text-align: center;">
                 <a href="https://apps.apple.com/us/app/${params.appStoreURL}?itsct=apps_box_badge&amp;itscg=30200" style="margin-top: 40px; display: inline-block; height: 50px; width: 150px; overflow: hidden">
-                  <img src="https://acildeprem.s3.eu-west-1.amazonaws.com/global/appstore.png" alt="Download on the App Store" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0; height: 50px; width: 150px;">
+                  <img src="https://afetcan.s3.eu-west-1.amazonaws.com/global/appstore.png" alt="Download on the App Store" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0; height: 50px; width: 150px;">
                 </a>
               </td>
             </tr>
             <tr>
               <td align="center" style="text-align: center;">
                 <a href="https://play.google.com/store/apps/details?id=${params.playStoreURL}&pcampaignid=email" style="margin-top: 16px; display: inline-block; height: 50px; width: 168px; overflow: hidden">
-                  <img alt="Google Play" den alın' src="https://acildeprem.s3.eu-west-1.amazonaws.com/global/googleplay.png" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0; height: 50px; width: 168px;">
+                  <img alt="Google Play" den alın' src="https://afetcan.s3.eu-west-1.amazonaws.com/global/googleplay.png" style="max-width: 100%; vertical-align: middle; line-height: 100%; border: 0; height: 50px; width: 168px;">
                 </a>
               </td>
             </tr>

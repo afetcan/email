@@ -1,4 +1,4 @@
-import { metrics } from '@acildeprem/service-common'
+import { metrics } from '@afetcan/service-common'
 
 export const emailsTotal = new metrics.Counter({
   name: 'emails_total',
