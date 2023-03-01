@@ -50,10 +50,10 @@
     "graphql": "16.6.0"
   },
   "dependencies": {
-    "@sentry/node": "^7.38.0",
-    "@trpc/server": "^10.12.0",
+    "@sentry/node": "^7.40.0",
+    "@trpc/server": "^10.13.2",
     "@whatwg-node/fetch": "^0.8.1",
-    "bullmq": "^3.7.2",
+    "bullmq": "^3.9.0",
     "dotenv": "^16.0.3",
     "ioredis": "^5.3.1",
     "mjml": "^4.13.0",
@@ -64,19 +64,19 @@
   },
   "devDependencies": {
     "@afetcan/service-common": "0.0.4",
-    "@antfu/eslint-config": "^0.35.2",
+    "@antfu/eslint-config": "^0.35.3",
     "@types/mjml": "^4.7.0",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.14.2",
     "@types/nodemailer": "^6.4.7",
     "@types/sendmail": "^1.4.4",
     "bumpp": "^8.2.1",
     "copyfiles": "^2.4.1",
-    "eslint": "^8.34.0",
-    "pino-pretty": "^9.3.0",
+    "eslint": "^8.35.0",
+    "pino-pretty": "^9.4.0",
     "tslib": "^2.5.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
     "vite": "^4.1.4",
-    "vitest": "^0.28.5"
+    "vitest": "^0.29.2"
   }
 }
