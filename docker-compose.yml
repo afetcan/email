@@ -23,7 +23,7 @@ services:
     #     EMAIL_FROM: "help@acildestek.com"
 
   afetcan_email_redis:
-    image: redis:7.0.9-alpine
+    image: redis:7.2.1-alpine
     networks:
       - 'stack'
     ports:
