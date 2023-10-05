@@ -47,36 +47,36 @@
   },
   "peerDependencies": {
     "@abraham/reflection": "^0.12.0",
-    "graphql": "16.6.0"
+    "graphql": "16.8.1"
   },
   "dependencies": {
-    "@sentry/node": "^7.40.0",
-    "@trpc/server": "^10.13.2",
-    "@whatwg-node/fetch": "^0.8.1",
-    "bullmq": "^3.9.0",
-    "dotenv": "^16.0.3",
-    "ioredis": "^5.3.1",
-    "mjml": "^4.13.0",
-    "nodemailer": "^6.9.1",
-    "p-timeout": "^6.1.1",
+    "@sentry/node": "^7.73.0",
+    "@trpc/server": "^10.38.5",
+    "@whatwg-node/fetch": "^0.9.13",
+    "bullmq": "^3.15.8",
+    "dotenv": "^16.3.1",
+    "ioredis": "^5.3.2",
+    "mjml": "^4.14.1",
+    "nodemailer": "^6.9.5",
+    "p-timeout": "^6.1.2",
     "sendmail": "^1.6.1",
-    "zod": "^3.20.6"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@afetcan/service-common": "0.0.4",
-    "@antfu/eslint-config": "^0.35.3",
-    "@types/mjml": "^4.7.0",
-    "@types/node": "^18.14.2",
-    "@types/nodemailer": "^6.4.7",
-    "@types/sendmail": "^1.4.4",
-    "bumpp": "^9.0.0",
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/mjml": "^4.7.2",
+    "@types/node": "^18.18.3",
+    "@types/nodemailer": "^6.4.11",
+    "@types/sendmail": "^1.4.5",
+    "bumpp": "^9.2.0",
     "copyfiles": "^2.4.1",
-    "eslint": "^8.35.0",
-    "pino-pretty": "^9.4.0",
-    "tslib": "^2.5.0",
-    "tsup": "^6.6.3",
+    "eslint": "^8.50.0",
+    "pino-pretty": "^9.4.1",
+    "tslib": "^2.6.2",
+    "tsup": "^6.7.0",
     "typescript": "^4.9.5",
-    "vite": "^4.1.4",
-    "vitest": "^0.29.2"
+    "vite": "^4.4.11",
+    "vitest": "^0.34.6"
   }
 }
