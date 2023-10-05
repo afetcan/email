@@ -53,7 +53,7 @@
     "@sentry/node": "^7.40.0",
     "@trpc/server": "^10.13.2",
     "@whatwg-node/fetch": "^0.8.1",
-    "bullmq": "^3.9.0",
+    "bullmq": "^4.12.2",
     "dotenv": "^16.0.3",
     "ioredis": "^5.3.1",
     "mjml": "^4.13.0",
@@ -72,10 +72,10 @@
     "bumpp": "^9.0.0",
     "copyfiles": "^2.4.1",
     "eslint": "^8.35.0",
-    "pino-pretty": "^9.4.0",
+    "pino-pretty": "^10.2.3",
     "tslib": "^2.5.0",
-    "tsup": "^6.6.3",
-    "typescript": "^4.9.5",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
     "vite": "^4.1.4",
     "vitest": "^0.29.2"
   }
